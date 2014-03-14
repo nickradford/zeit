@@ -1,0 +1,26 @@
+{
+  "name": "zeit",
+  "version": "0.0.0",
+  "description": "Manage time in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nickradford/zeit.git"
+  },
+  "keywords": [
+    "time",
+    "seconds",
+    "minutes",
+    "conversion",
+    "milliseconds"
+  ],
+  "author": "Nick Radford && Alexander Harding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nickradford/zeit/issues"
+  },
+  "homepage": "https://github.com/nickradford/zeit"
+}
