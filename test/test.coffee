@@ -1,7 +1,7 @@
-describe 'something', (done) ->
+describe 'Zeit', (done) ->
 
-  describe "when given something", ->
+  describe "Works n stuff", ->
 
-    it "should do this", ->
-    	testing.should.equal true
+    it ".seconds converts stuff", ->
+    	10.seconds.should.equal 10000
         # tests using chai API here
