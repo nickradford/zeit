@@ -1,3 +1,0 @@
-var testing;
-
-testing = true;
