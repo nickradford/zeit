@@ -11,6 +11,12 @@
     "type": "git",
     "url": "git@github.com:nickradford/zeit.git"
   },
+  "files": [
+    "dist/",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [
     "time",
     "seconds",
