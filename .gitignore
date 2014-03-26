@@ -1,3 +1,9 @@
+# Built files #
+###############
+dist
+test/*.js
+
+
 lib-cov
 *.seed
 *.log
