@@ -37,7 +37,7 @@ gulp.task "clean", ->
 gulp.task "coffee", ->
   gulp
     .src "./src/*.coffee"
-    .pipe coffee bare: true
+    .pipe coffee()
     .pipe gulp.dest distDir
   gulp
     .src 'test/**/*.coffee'
