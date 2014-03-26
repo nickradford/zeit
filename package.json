@@ -1,6 +1,6 @@
 {
   "name": "zeitjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Manage time in Javascript",
   "main": "./dist/zeit.js",
   "scripts": {
