@@ -1,5 +1,5 @@
 {
-  "name": "zeit",
+  "name": "zeitjs",
   "version": "0.0.0",
   "description": "Manage time in Javascript",
   "main": "./dist/zeit.js",
