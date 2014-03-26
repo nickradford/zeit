@@ -18,6 +18,8 @@ clean   = require "gulp-clean"
 mocha   = require "gulp-mocha"
 karma   = require 'gulp-karma'
 
+require 'gulp-ignore'
+
 
 distDir = "./dist/"
 distTargetFile = "zeit.js"
@@ -44,7 +46,7 @@ gulp.task "coffee", ->
 
 gulp.task "minify", ["coffee"], ->
   gulp
-    .src "./dist/*.js"
+    .src ["./dist/*.js", "!./dist/*.min.js"]
     .pipe rename suffix: ".min"
     .pipe uglify outSourceMap: true
     .pipe gulp.dest distDir
